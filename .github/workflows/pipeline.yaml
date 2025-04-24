@@ -16,6 +16,6 @@ jobs:
       - name: Install node
         uses: actions/setup-node@v4
       - name: Install dependencies
-        run: npm run install
+        run: npm install
       - name: Execute test suite
         run: npm test
