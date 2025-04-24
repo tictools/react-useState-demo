@@ -31,7 +31,7 @@ describe("Given TodoList", () => {
 
     const element = getByText("Todo title");
 
-    expect(element.parentElement.parentElement.tagName).toBe("LI");
+    expect(element.parentElement.parentElement.tagName).toBe("UL");
   });
 
   test.todo(
